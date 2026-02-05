@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --bg: #F5F5F5;          /* background color — off white */
-  --bg-nav: #ffc14f;      /* nav bar — brightish yellow */
-  --text: #b6b6b1;        /* text — light grayish color */
+  --bg: #F5F5F5;          /* background color — off white (GOOD DONT CHANGE) */
+  --bg-nav: #cfcdc8;      /* nav bar — lightish gray */
+  --text: #303030;        /* text — dark grayish */
   --muted: #b5b8b3;       /* muted gray text */
-  --accent: #ff432f;      /* accent — red orange */
-  --border: #4f897b;      /* subtle divider green */
+  --accent: #ffcc56;      /* accent — yellow */
+  --border: #ff5a44;      /* borders — reddish orange */
 }
 
 /* Base page */
