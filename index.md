@@ -5,4 +5,4 @@ title: Home
 
 # Jackson Fleege
 
-- [About](/about.html)
+- [About]({{ '/about/' | relative_url }})
