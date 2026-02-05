@@ -36,12 +36,12 @@ h3 {
 }
 
 p {
-  color: var(--muted);
+  color: var(--text);
 }
 
-/* Links */
+/* links */
 a {
-  color: var(--accent);
+  color: var(--border);
   text-decoration: none;
 }
 
@@ -93,6 +93,6 @@ main {
 
 /* Nested lists (hobbies) */
 ul ul li {
-  color: var(--muted);
+  color: var(--text);
   font-size: 0.95rem;
 }
