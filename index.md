@@ -3,6 +3,6 @@ layout: default
 title: Home
 ---
 
-# Jackson Fleege
+### *this website is in active development*
 
 - [About]({{ '/about/' | relative_url }})
