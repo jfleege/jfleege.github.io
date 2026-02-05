@@ -1,7 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root {
+  --bg: #0f2a22;          /* deep green (cutting mat) */
+  --bg-nav: #0b1f1a;      /* darker green for navbar */
+  --text: #e6e6e3;        /* soft off-white (keycaps) */
+  --muted: #b5b8b3;       /* muted gray text */
+  --accent: #f2b705;      /* warm yellow/orange (spacebar) */
+  --border: #1f3a32;      /* subtle divider green */
+}
+
+/* Base page */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  color: var(--text);
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+}
+
+h3 {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.3rem;
+  margin-top: 2.5rem;
+}
+
+p {
+  color: var(--muted);
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
 .site-nav {
-  border-bottom: 1px solid #2d3748;
+  background-color: var(--bg-nav);
+  border-bottom: 1px solid var(--border);
   padding: 0.9rem 1rem;
 }
 
@@ -16,6 +67,7 @@
 
 .brand {
   font-weight: 700;
+  color: var(--text);
   text-decoration: none;
 }
 
@@ -25,25 +77,22 @@
 }
 
 .nav-links a {
-  text-decoration: none;
+  color: var(--text);
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  color: var(--accent);
 }
 
-/* keeps your content aligned with the nav width */
+/* Content layout */
 main {
   max-width: 900px;
-  margin: 1.5rem auto;
+  margin: 2rem auto;
   padding: 0 1rem;
 }
 
-
-h1 {
-  font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 600;
-  font-size: 2.4rem;
-  margin-bottom: 1rem;
+/* Nested lists (hobbies) */
+ul ul li {
+  color: var(--muted);
+  font-size: 0.95rem;
 }
-
