@@ -14,7 +14,7 @@ Hi! My name is Jackson Fleege, and I am a junior at the University of Illinois U
 My academic interests center on data analysis, statistical modeling, and data science, with particular emphasis on understanding uncertainty, evaluating model performance, and translating quantitative results into meaningful conclusions.
 </p>
 
----
+
 
 <h3>Research</h3>
 <p> 
@@ -25,7 +25,7 @@ I am involved in undergraduate research focused on applying statistical and comp
 My past work includes studying how students use narrative features in predictive modeling contexts. I am currently working on an extension of this project, exploring refinements to both the modeling framework and evaluation strategy.
 </p>
 
---- 
+
 
 <h3>Projects</h3>
 <p>
@@ -36,7 +36,7 @@ Outside of formal coursework, I work on independent projects in areas such as pr
 A selection of my work can be found on my <a href="/projects/">Projects</a> page, with full code and documentation available on GitHub.
 </p>
 
---- 
+
 
 <h3>Outside Interests</h3>
 <p>
@@ -65,13 +65,13 @@ I also serve as the treasurer for <b>Philanthropic Playlist</b>, a registered st
   <li><b>Books</b>
     <ul>
       <li><b>Favorites:</b> Shōgun, The Catcher in the Rye, All the Light We Cannot See</li>
-      <li><i>Currently reading:</i> Tai-Pan </li>
+      <li><i>Currently reading:</i> Martyr! </li>
     </ul>
   </li>
 </ul>
 
 
---- 
+
 
 <h3>Future Plans</h3>
 <p>
