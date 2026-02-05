@@ -8,6 +8,21 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">Jackson Fleege</a>
+
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        <a href="https://github.com/jfleege" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </nav>
+  
   <main>
     {{ content }}
   </main>
