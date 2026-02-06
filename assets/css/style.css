@@ -18,7 +18,7 @@ body {
 
 /* Typography */
 h1, h2, h3, h4 {
-  color: var(--text);
+  color: var(--muted);
 }
 
 h1 {
@@ -36,7 +36,7 @@ h3 {
 }
 
 p {
-  color: var(--accent);
+  color: var(--text);
 }
 
 /* links */
