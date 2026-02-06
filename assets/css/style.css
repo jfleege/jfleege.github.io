@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --bg: #F5F5F5;          /* background color — off white (GOOD DONT CHANGE) */
+  --bg: #363434;          /* background color — dark (GOOD DONT CHANGE) */
   --bg-nav: #cfcdc8;      /* nav bar — lightish gray */
-  --text: #303030;        /* text — dark grayish */
+  --text: #F5F5F5;        /* text — white */
   --muted: #b5b8b3;       /* muted gray text */
   --accent: #ffcc56;      /* accent — yellow */
   --border: #ff5a44;      /* borders — reddish orange */
