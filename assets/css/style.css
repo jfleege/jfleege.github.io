@@ -97,16 +97,34 @@ ul ul li {
   font-size: 0.95rem;
 }
 
+/* about image stuff here*/
 .about-header {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   align-items: flex-start;
-  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  align-items: center;
 }
 
-/* edit size of the about photo here */
+.about-text {
+  flex: 1;
+}
+
 .about-photo {
-  max-width: 200px;
-  border-radius: 8px;
+  width: 260px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 768px) {
+  .about-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-photo {
+    width: 220px;
+  }
 }
 
