@@ -12,7 +12,7 @@
 /* Base page */
 body {
   background-color: var(--bg);
-  color: var(--text);
+  color: var(--accent);
   font-family: 'Roboto', Arial, sans-serif;
 }
 
