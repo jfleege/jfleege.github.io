@@ -8,7 +8,7 @@ permalink: /about/
 
 <div class="about-header">
   <img
-    src="{{ '/assets/images/IMG_1893.jpeg' | relative_url }}"
+    src="{{ '/assets/images/me.png | relative_url }}"
     alt="Photo of Jackson Fleege"
     class="about-photo"
   />
