@@ -96,3 +96,17 @@ ul ul li {
   color: var(--text);
   font-size: 0.95rem;
 }
+
+.about-header {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* edit size of the about photo here */
+.about-photo {
+  max-width: 200px;
+  border-radius: 8px;
+}
+
