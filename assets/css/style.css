@@ -111,7 +111,7 @@ ul ul li {
 }
 
 .about-photo {
-  width: clamp(12px, 5vw, 30px);
+  width: clamp(48px, 20vw, 120px);
   height: auto;
   border-radius: 10px;
   object-fit: cover;
