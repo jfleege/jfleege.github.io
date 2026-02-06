@@ -7,15 +7,25 @@ permalink: /about/
 <h1> About </h1>
 
 <div class="about-header">
-  <img src="{{ '/assets/images/me.png' | relative_url }}" alt="Photo of Jackson Fleege" class="about-photo">
-  <div>
-<p> 
-Hi! My name is Jackson Fleege, and I am a junior at the University of Illinois Urbana–Champaign double majoring in Mathematics (Data Optimization focus) and Statistics, with a minor in Computer Science. I am interested in applying mathematical and statistical reasoning to analyze data, build models, and make informed predictions about real-world systems.
-</p>
 
-<p>
-My academic interests center on data analysis, statistical modeling, and data science, with particular emphasis on understanding uncertainty, evaluating model performance, and translating quantitative results into meaningful conclusions.
-</p>
+  <div class="about-text">
+    <p>
+      Hi! My name is Jackson Fleege, and I am a junior at the University of Illinois Urbana–Champaign double majoring in Mathematics (Data Optimization focus) and Statistics, with a minor in Computer Science.
+    </p>
+
+    <p>
+      My academic interests center on data analysis, statistical modeling, and data science, with particular emphasis on understanding uncertainty, evaluating model performance, and translating quantitative results into meaningful conclusions.
+    </p>
+  </div>
+
+  <img
+    src="{{ '/assets/images/me.png' | relative_url }}"
+    alt="Photo of Jackson Fleege"
+    class="about-photo"
+  />
+
+</div>
+
 
 
 
