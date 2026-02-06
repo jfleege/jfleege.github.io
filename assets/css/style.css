@@ -2,7 +2,7 @@
 
 :root {
   --bg: #363434;          /* background color — dark (GOOD DONT CHANGE) */
-  --bg-nav: #cfcdc8;      /* nav bar — lightish gray */
+  --bg-nav: #1c1c1b;      /* nav bar — lightish gray */
   --text: #F5F5F5;        /* text — white */
   --muted: #b5b8b3;       /* muted gray text */
   --accent: #ffcc56;      /* accent — yellow */
@@ -18,7 +18,7 @@ body {
 
 /* Typography */
 h1, h2, h3, h4 {
-  color: var(--muted);
+  color: var(--accent);
 }
 
 h1 {
