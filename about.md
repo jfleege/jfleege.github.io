@@ -6,6 +6,14 @@ permalink: /about/
 
 <h1> About </h1>
 
+<div class="about-header">
+  <img
+    src="{{ '/assets/images/IMG_1893.jpeg' | relative_url }}"
+    alt="Photo of Jackson Fleege"
+    class="about-photo"
+  />
+
+  <div>
 <p> 
 Hi! My name is Jackson Fleege, and I am a junior at the University of Illinois Urbana–Champaign double majoring in Mathematics (Data Optimization focus) and Statistics, with a minor in Computer Science. I am interested in applying mathematical and statistical reasoning to analyze data, build models, and make informed predictions about real-world systems.
 </p>
