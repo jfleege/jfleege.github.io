@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-
+{% if page.url == "/about/" %}
+    <script src="{{ '/assets/js/about-colors.js' | relative_url }}"></script>
+  {% endif %}
 
   <nav class="site-nav">
     <div class="nav-inner">
