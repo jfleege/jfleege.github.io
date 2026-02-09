@@ -27,13 +27,11 @@ Traditional inference in introductory statistics often lends students to opt for
 
 <div class="slides-embed">
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTtWXEzIdR54LQ-gyChcXJI1YfKi59lkEcQSVQlEt1yxiDVEqrfXxBajqM1O9Xcjg/pubembed?start=false&loop=false&delayms=3000" 
-    frameborder="0" 
-    width="960" 
-    height="569" 
-    allowfullscreen="true" 
-    mozallowfullscreen="true" 
-    webkitallowfullscreen="true">
-    </iframe>
+    frameborder="0"
+    width="100%"
+    height="480"
+    allowfullscreen
+  ></iframe>
 </div>
 
 
