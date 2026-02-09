@@ -9,14 +9,14 @@
   --border: #ff5a44;      /* borders — reddish orange */
 }
 
-/* Base page */
+/* base page */
 body {
   background-color: var(--bg);
   color: var(--accent);
   font-family: 'Roboto', Arial, sans-serif;
 }
 
-/* Typography */
+/* typography */
 h1, h2, h3, h4 {
   color: var(--accent);
 }
@@ -49,7 +49,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navbar */
+/* navbar */
 .site-nav {
   background-color: var(--bg-nav);
   border-bottom: 1px solid var(--border);
@@ -84,20 +84,20 @@ a:hover {
   color: var(--accent);
 }
 
-/* Content layout */
+/* content layout */
 main {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-/* Nested lists (hobbies) */
+/* nested lists (hobbies) */
 ul ul li {
   color: var(--text);
   font-size: 0.95rem;
 }
 
-/* about image stuff here*/
+/* about image stuff here */
 .about-header {
   display: flex;
   gap: 2rem;
@@ -137,7 +137,7 @@ ul ul li {
   gap: 1rem;
 }
 
-/* keep your h1 underline behavior */
+/* h1 underline behavior */
 .about-title-row h1 {
   margin: 0;
 }
@@ -157,4 +157,10 @@ ul ul li {
   opacity: 0.9;
 }
 
+/* for the google slides presentation */
+.slides-embed {
+  margin: 2rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
 
