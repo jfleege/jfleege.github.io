@@ -1,34 +1,38 @@
 // assets/js/about-colors.js
 document.addEventListener("DOMContentLoaded", () => {
-  // If this widget isn't on the page, do nothing
   const root = document.querySelector("#colors");
   if (!root) return;
 
-  // Helper: set background for a selector if it exists
-  function setBg(sel, value) {
-    const el = root.querySelector(sel);
-    if (el) el.style.background = value;
-  }
+  // Grab the dots inside your widget
+  const dots = Array.from(root.querySelectorAll(".circle"));
+  if (dots.length === 0) return;
 
-  // You can animate these however you want; here's a simple rotating palette
-  const frames = [
-    ["#FF4B4B", "rgb(255,168,40)", "hsl(44,100%,59%)", "#FF4B4B33", "rgba(255,168,40,.25)", "hsla(44,100%,59%,.25)"],
-    ["#f2b705", "rgb(255,75,75)", "hsl(160,60%,35%)", "#f2b70533", "rgba(255,75,75,.25)", "hsla(160,60%,35%,.25)"],
-    ["#ffffff", "rgb(181,184,179)", "hsl(210,10%,70%)", "#ffffff33", "rgba(181,184,179,.25)", "hsla(210,10%,70%,.25)"],
+  // Your 6 colors (keep these exactly as-is)
+  const colors = [
+    "#FF4B4B", // red
+    "#FFA828", // orange
+    "#FFCC2E", // yellow
+    "#6A3A3A", // maroon/brown
+    "#8A6A2B", // tan/brown
+    "#8C6F2A"  // olive/gold
   ];
 
-  let i = 0;
-  function render() {
-    const [hex, rgb, hsl, hexa, rgba, hsla] = frames[i % frames.length];
-    setBg(".hex", hex);
-    setBg(".rgb", rgb);
-    setBg(".hsl", hsl);
-    setBg(".hexa", hexa);
-    setBg(".rgba", rgba);
-    setBg(".hsla", hsla);
-    i++;
+  // If you have more/less than 6 dots, this still works
+  let offset = 0;
+
+  function paint() {
+    dots.forEach((dot, i) => {
+      dot.style.backgroundColor = colors[(i + offset) % colors.length];
+    });
   }
 
-  render();
-  setInterval(render, 1100);
+  paint();
+
+  // Rotate positions: increase offset over time
+  const intervalMs = 450; // tweak speed: smaller = faster
+  setInterval(() => {
+    offset = (offset + 1) % colors.length;
+    paint();
+  }, intervalMs);
 });
+
