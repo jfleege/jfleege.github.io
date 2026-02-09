@@ -129,3 +129,32 @@ ul ul li {
   }
 }
 
+/* for the animated circles */
+.about-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* keep your h1 underline behavior */
+.about-title-row h1 {
+  margin: 0;
+}
+
+/* the little circle strip */
+#colors .row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+#colors .circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--muted);
+  opacity: 0.9;
+}
+
+
