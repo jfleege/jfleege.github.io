@@ -4,7 +4,20 @@ title: About
 permalink: /about/
 ---
 
-<h1> About </h1>
+<div class="about-title-row">
+  <h1>About</h1>
+
+  <div id="colors" aria-hidden="true">
+    <div class="large justified row">
+      <div class="circle hex"></div>
+      <div class="circle rgb"></div>
+      <div class="circle hsl"></div>
+      <div class="circle hexa"></div>
+      <div class="circle rgba"></div>
+      <div class="circle hsla"></div>
+    </div>
+  </div>
+</div>
 
 <div class="about-header">
 
